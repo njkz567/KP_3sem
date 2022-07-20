@@ -12,7 +12,7 @@
 
 #endif // __linux__
 
-void LoadRun(const char * const s) // в смысле два const!?!?!
+void LoadRun(const char * const s) // константный указатель на константное значение
 {
     void *lib;
     void (*fun)(void);
